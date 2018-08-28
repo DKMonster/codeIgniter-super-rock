@@ -15,6 +15,7 @@ Download this library and put into the codeigniter project.
 
 ### config ###
 We had import the libraries to ``config/config.js``:
+
 #### Libraries ####
 * session (options)
 * getpost // help you manger get and post data
@@ -32,6 +33,7 @@ We had import the libraries to ``config/config.js``:
 
 #### Model ####
 * mod_config // language and response model
+
 ```
 /*
 | -------------------------------------------------------------------
@@ -39,23 +41,40 @@ We had import the libraries to ``config/config.js``:
 | -------------------------------------------------------------------
 */
 $autoload['libraries'] = array('session', 'getpost', 'date', 'mongo_db');
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
 | -------------------------------------------------------------------
 */
 $autoload['helper'] = array('url', 'cookie');
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
 | -------------------------------------------------------------------
 */
 $autoload['config'] = array('global', 'routes_api', 'code_error', 'code_success');
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Models
 | -------------------------------------------------------------------
 */
-$autoload['model'] = array('mod_general', 'mod_config');
+$autoload['model'] = array('mod_config');
+
 ```
 
+### routes ###
+Second, you can add the routes about the api authenticate.
+Now you can catch the api data to api controller.
+
+```
+$route['api/(:any)/(:any)'] = 'api/authenticate/$1/$2';
+```
+
+## Usage ##
+
+## FAQ ##
+
+## Change Log ##
