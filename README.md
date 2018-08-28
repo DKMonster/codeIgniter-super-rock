@@ -16,19 +16,20 @@ Download this library and put into the codeigniter project.
 ### config/config.js ###
 We had import the libraries include:
 ```
-  #### libraries ####
-  * session
-  * getpost
-  #### helper ####
-  * url
-  * cookie (options)
-  #### config ####
-  * global
-  * routes_api
-  * code_error
-  * code_success
-  #### model ####
-  * mod_general
-  * mod_config
+#### libraries ####
+* session 
+* getpost // help you manger get and post data
+* date // date library
+#### helper ####
+* url
+* cookie (options)
+#### config ####
+* global // basic setting
+* routes_api // setting api config
+* code_error // error message
+* code_success // success message
+#### model ####
+* mod_config // language and response model
 ```
+
 
