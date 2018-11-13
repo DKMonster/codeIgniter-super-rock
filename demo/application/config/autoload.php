@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('email', 'session', 'getpost', 'date');
+$autoload['libraries'] = array('mongo_db', 'getpost', 'date');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url', 'cookie');
+$autoload['helper'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +103,7 @@ $autoload['helper'] = array('url', 'cookie');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('global', 'routes_api', 'code_error', 'code_success');
+$autoload['config'] = array('global', 'code_success', 'code_error', 'routes_api');
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('mod_user', 'mod_general', 'mod_config');
+$autoload['model'] = array('mod_config');

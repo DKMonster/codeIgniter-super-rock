@@ -13,6 +13,9 @@ You can easily to manage own codeigniter api library.
 ## Installation ##
 Download this library and put into the codeigniter project.
 
+### Require ###
+You need install the codeigniter mongo in this ![url](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
+
 ### config ###
 We had import the libraries to ``config/config.js``:
 
@@ -33,6 +36,7 @@ We had import the libraries to ``config/config.js``:
 
 #### Model ####
 * mod_config // language and response model
+* mod_config // mongo models
 
 ```
 /*

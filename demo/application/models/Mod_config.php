@@ -55,6 +55,4 @@ class Mod_config extends CI_Model {
     }
 }
 
-/* End of file Mod_config.php */
-
 ?>
